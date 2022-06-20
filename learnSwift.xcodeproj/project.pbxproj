@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5A7ACC28609F3D001B67EA /* lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A7ACB28609F3D001B67EA /* lesson2.swift */; };
 		8BD32C7D286098C800649BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD32C7C286098C800649BD4 /* AppDelegate.swift */; };
 		8BD32C7F286098C800649BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD32C7E286098C800649BD4 /* SceneDelegate.swift */; };
 		8BD32C81286098C800649BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD32C80286098C800649BD4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B5A7ACB28609F3D001B67EA /* lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson2.swift; sourceTree = "<group>"; };
 		8BD32C79286098C800649BD4 /* learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD32C7C286098C800649BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD32C7E286098C800649BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5A7ACA28609F0E001B67EA /* lesson2_variables */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A7ACB28609F3D001B67EA /* lesson2.swift */,
+			);
+			path = lesson2_variables;
+			sourceTree = "<group>";
+		};
 		8BD32C70286098C800649BD4 = {
 			isa = PBXGroup;
 			children = (
+				8B5A7ACA28609F0E001B67EA /* lesson2_variables */,
 				8BD32C7B286098C800649BD4 /* learnSwift */,
 				8BD32C7A286098C800649BD4 /* Products */,
 			);
@@ -140,6 +151,7 @@
 			files = (
 				8BD32C81286098C800649BD4 /* ViewController.swift in Sources */,
 				8BD32C7D286098C800649BD4 /* AppDelegate.swift in Sources */,
+				8B5A7ACC28609F3D001B67EA /* lesson2.swift in Sources */,
 				8BD32C7F286098C800649BD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
